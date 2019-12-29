@@ -1,0 +1,82 @@
+## Configuration File for SMR Calibration Routine (Entries on the Same Line Delimited by Spaces):
+# 
+
+# Number of Parameters
+5
+
+## Observational Error Tuning Nu
+6
+
+# Observational Error Tuning Tau
+0.05
+
+# Number of Desired MCMC Steps
+1000
+
+# Counter Results
+1
+
+# MCMC Parameter Proposal Mode ('Single' | 'Block')
+Block
+
+# Block Proposal Mode: Covariance Matrix Recalculation Rate (How often the Covariance is recalculated in # of MCMC Steps)
+1000
+
+# Block Proposal Mode: Initial Adaptive Step (Initial value of the variable that ensures a dynamic stepping sequence | Step is multiplied by this value)
+0.4
+
+# Block Proposal Mode: Stop the Dynamic Step After this Many Steps
+30000
+
+# Block Proposal Mode: Acceptance Rates for the Adaptive Step (Low Bound/High Bound)
+1 10
+
+# Block Proposal Mode: Dynamic Step Recalculation Rate (How often the Dynamic Step is recalculated in # of MCMC Steps)
+250
+
+# Block Proposal Mode: Past Samples used in Calculating the Covariance Matrix
+4000
+
+# Block Proposal Mode: Input Covariance Matrix ('1' for Yes |'0' for No)
+0
+
+# Parameters that require the log space to sampling correctly (0 for No / 1 for Yes | Length of Row Vector should match Number of Parameters)
+1 1 1 1 1
+
+## SMR Parameters
+# kappa1 Low | High (J/mol) | Starting Point | Standard Deviation [0]
+-3.2 -4.2 6 1.9e-4
+
+# kappa2 Low | High (J/mol-K) | Starting Point | Standard Deviation [1]
+-1 1.5 31 10
+
+# kappa3 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [2]
+4 -4 1000 50
+
+# k1 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [3]
+2 2.6 300 100
+
+# k3 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [4]
+-0.9 -0.1 0.8 0.2
+
+## Discrepancy Parameters
+# 1st Beta Parameter (Beta1) Low | High | Starting Point | Standard Deviation [5]
+-100 100 0 1
+
+# 2nd Beta Parameter (Beta2) Low | High | Starting Point | Standard Deviation [6]
+-675 675 0 37.5
+
+# 3rd Beta Parameter (Beta3) Low | High | Starting Point | Standard Deviation [7]
+-1000 1000 0 75
+
+# 4th Beta Parameter (Beta4) Low | High | Starting Point | Standard Deviation [8]
+-1000 1000 0 75
+
+# 5th Beta Parameter (Beta5) Low | High | Starting Point | Standard Deviation [9]
+-1000 1000 0 75
+
+# 6th Beta Parameter (Beta6) Low | High | Starting Point | Standard Deviation [10]
+-1000 1000 0 75
+
+# 7th Beta Parameter (Beta7) Low | High | Starting Point | Standard Deviation [11]
+-1000 1000 0 75

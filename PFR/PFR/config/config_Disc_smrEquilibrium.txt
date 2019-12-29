@@ -1,0 +1,39 @@
+# The Order of the Desired Basis Functions [x^EnteredValue]
+4
+
+# The Number of Desired Beta Values 
+6
+
+# The Number of Acting Covariates
+5
+
+# The Resolution of the Discrepancy
+499
+
+# The Number of Covariate Interactions
+3
+
+# The Path to the Basis Function File
+config/curt_basis_formatted.txt
+
+# The Path to the Beta Values and/or Interaction Matrix File
+config/InteractionMatrix.txt
+
+# Inversion Control | '0' doesn't invert bounds | '1' inverts bounds | (# of Values must match # of covariates)
+0 0 0 0 0
+
+# Parameter 1 | PCH4
+0 10
+
+# Parameter 2 | PH2O
+0 10
+
+# Parameter 3 | PCO2
+0 10
+
+# Parameter 4 | PH2
+0 10
+
+# Parameter 5 | (1/T)
+0.0011792 0.00129366
+

@@ -1,0 +1,91 @@
+## Configuration File for SMR Calibration Routine (Entries on the Same Line Delimited by Spaces):171584 -2500.84 88933.4 86.4846 -21.0288 66.0859 1653.74 5820.45 -1.77065 -1.92634 -3.68424 -0.693133 	 
+# 
+
+# Number of Parameters
+14
+
+## Observational Error Tuning Nu
+6
+
+# Observational Error Tuning Tau
+0.05
+
+# Number of Desired MCMC Steps
+50000
+
+# Counter Results
+100
+
+# MCMC Parameter Proposal Mode ('Single' | 'Block')
+Block
+
+# Block Proposal Mode: Covariance Matrix Recalculation Rate (How often the Covariance is recalculated in # of MCMC Steps)
+10000
+
+# Block Proposal Mode: Initial Adaptive Step (Initial value of the variable that ensures a dynamic stepping sequence | Step is multiplied by this value)
+0.7
+
+# Block Proposal Mode: Stop the Dynamic Step After this Many Steps
+45000
+
+# Block Proposal Mode: Acceptance Rates for the Adaptive Step (Low Bound/High Bound)
+1 10
+
+# Block Proposal Mode: Dynamic Step Recalculation Rate (How often the Dynamic Step is recalculated in # of MCMC Steps)
+500
+
+# Block Proposal Mode: Past Samples used in Calculating the Covariance Matrix
+10000
+
+# Block Proposal Mode: Input Covariance Matrix ('1' for Yes |'0' for No)
+0
+
+# Parameters that require the log space to sampling correctly (0 for No / 1 for Yes | Length of Row Vector should match Number of Parameters)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+## SMR Parameters
+# delH1 Low | High (J/mol) | Starting Point | Standard Deviation [0]
+-1e5 2e5 171584 1e2
+
+# delH2 Low | High (J/mol-K) | Starting Point | Standard Deviation [1]
+-1e5 2e5 -2500.84 1e1
+
+# delH3 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [2]
+-1e5 2e5 88933.4 1e2
+
+# delS1 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [3]
+-2e2 2e2 86.4846 1.9e1
+
+# delS2 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [4]
+-2e2 2e2 -21.0288 1.9e1
+
+# delS3 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [4]
+-2e2 2e2 66.0859 1.9e1
+
+# A1 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [4]
+1 9e3 1653.74 1.9e1
+
+# A3 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [4]
+1 9e3 5820.45 1.9e1
+
+## Discrepancy Parameters
+# 1st Beta Parameter (Beta1) Low | High | Starting Point | Standard Deviation [5]
+-5 2 -1.77065 1
+
+# 2nd Beta Parameter (Beta2) Low | High | Starting Point | Standard Deviation [6]
+-5 2 -1.92634 1
+
+# 3rd Beta Parameter (Beta3) Low | High | Starting Point | Standard Deviation [7]
+-5 2 -3.68424 1
+
+# 4th Beta Parameter (Beta4) Low | High | Starting Point | Standard Deviation [8]
+-5 2 -0.693133 1
+
+# 5th Beta Parameter (Beta5) Low | High | Starting Point | Standard Deviation [9]
+-5 2 0 1
+
+# 6th Beta Parameter (Beta6) Low | High | Starting Point | Standard Deviation [10]
+-5 2 0 1
+
+# 7th Beta Parameter (Beta7) Low | High | Starting Point | Standard Deviation [11]
+-10 10 0 7.5

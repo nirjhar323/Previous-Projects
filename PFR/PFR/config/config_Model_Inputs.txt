@@ -1,0 +1,5 @@
+## Configuration File for 1st-gen Langmuir Isotherm Fitting Routine (Entries on the Same Line Delimited by Spaces):
+
+## Inputs
+# CH4 feed (mol/s) | Water Feed (mol/s) | Run Time(s) | Sampling frequency(s)| Display Frequency(s) | Temp (K)| Volume (m^3) | Break Step | Include CO(true/false)
+0.00037 0.000123 2 0.01 1 800 5 501 False

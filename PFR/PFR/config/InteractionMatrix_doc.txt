@@ -1,0 +1,25 @@
+# Number of lines should equal number of beta values and number of columns = 2 * number of covariate interactions
+
+1 1 -1 -1 1 1 beta1
+1 1 2 1 1 1 beta2
+1 2 -1 -1 1 1 beta3
+1 2 2 1 1 1
+1 3 -1 -1 1 1
+1 3 2 1 1 1
+1 4 -1 -1 1 1
+1 4 2 1 1 1
+1 5 -1 -1 1 1
+1 5 2 1 1 1
+
+
+In func_bssanova_2.hpp:
+
+
+numfunc = Order of desired basis functions
+numbetas = Number of desired beta values
+numcov = The number of acting covariates
+numdisc = the resolution of the discrepancy
+order = number of covariate interactions
+
+
+BasisCoeffs[func](a,b) where func = order of the basis function, a = input to basis function , b = ?

@@ -1,0 +1,2 @@
+# Name of the Configuration that contains the Parameters to be Evaluated by the MCMC Routine
+config/config_ISO_bayes.txt

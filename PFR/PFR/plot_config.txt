@@ -1,0 +1,5 @@
+## 1528102849 1527921101  1527652404 1527321654 1527321654 43000 41800 1527136840 1527062893 1527136840 1526891792 1526753764 Configuration File for 1st-gen Langmuir Isotherm Fitting Routine (Entries on the Same Line Delimited by Spaces):
+
+## Inputs
+# No of parameters(w or w/o discrepancy) | Time Stamp | Upper Bound | Lower Bound | No of Plots |Break Step |logscale | DiskOn| Null is because +1 is somehow added to this string size.
+14 1528408568 47000 46000 100 100 0 1 null

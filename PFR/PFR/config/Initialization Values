@@ -1,0 +1,39 @@
+#Record of initialization values used
+
+## SMR Parameters
+# kappa1 Low | High (J/mol) | Starting Point | Standard Deviation [0]
+6.31e-5 6.31 9.9e-5 1.9e-4                                                                                   -1.65693 0.287746 -2.31538 2.12276 -0.735973 3.33812 0.949884 -3.26638 -1.11861 
+
+# kappa2 Low | High (J/mol-K) | Starting Point | Standard Deviation [1]
+0.1 31.62 15 10
+
+# kappa3 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [2]
+1e-5 1e4 1 50
+
+# k1 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [3]
+100 317 200 100
+
+# k3 Low | High (nv, mol/m^3) | Starting Point | Standard Deviation [4]
+0.1585 0.831 0.35 0.2
+
+## Discrepancy Parameters
+# 1st Beta Parameter (Beta1) Low | High | Starting Point | Standard Deviation [5]
+-5 5 0 1
+
+# 2nd Beta Parameter (Beta2) Low | High | Starting Point | Standard Deviation [6]
+-5 5 0 1
+
+# 3rd Beta Parameter (Beta3) Low | High | Starting Point | Standard Deviation [7]
+-5 5 0 1
+
+# 4th Beta Parameter (Beta4) Low | High | Starting Point | Standard Deviation [8]
+-5 5 0 1
+
+# 5th Beta Parameter (Beta5) Low | High | Starting Point | Standard Deviation [9]
+-10 10 0 7.5
+
+# 6th Beta Parameter (Beta6) Low | High | Starting Point | Standard Deviation [10]
+-10 10 0 7.5
+
+# 7th Beta Parameter (Beta7) Low | High | Starting Point | Standard Deviation [11]
+-10 10 0 7.5

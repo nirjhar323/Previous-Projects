@@ -1,0 +1,19 @@
+This code uses FEM to upscale SMR Reduced Order Lab Scale Model to an Industrial Plug Flow Reactor. The model being used is defined by the text files 'plot_config.txt. The inflow values and other configuration detais such as temperature are grabbed from 'config_Model_Inputs.txt' file.
+
+
+Dependency Librariers: Boost, OpenBLAS, Armadillo
+compile command:
+Debugging: g++ -g -std=c++11 -I /home/nirjhar/Libraries/boost_1_71_0/ test_cleaned.cpp -o test_cleaned -larmadillo
+Optimized: g++ -O2 -std=c++11 -I /home/nirjhar/Libraries/boost_1_71_0/ test_cleaned.cpp -o test_cleaned -larmadillo
+
+Possible Improvement: Use of classes to minimize global variables used. However, this causes conflict with some of the library function data structures.
+
+Testing:
+
+Stead State Testing: steady_state_testing.txt contains the state variables for a specific tank and parameter(chosen randomly). The values contained here are plotted using steady_state_testing.m to validate whether the tank(finite elements) are really achieving steady state.
+
+Steady State Variability Testing: steady_state_variability_testing.m compares the state variables for two different parameter sets and compares their variability.
+
+PFR Testing:PFR_plot.m is used to plot the plug flow reactor values for different parmeters sets.Characteristics of this plot can be used to validate the FEM and plug flow reactor implementation. It is also used for Uncertainy Quantification accompanied with upscaling. 
+
+

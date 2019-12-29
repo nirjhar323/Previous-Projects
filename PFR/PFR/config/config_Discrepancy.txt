@@ -1,0 +1,7 @@
+# Boolean Discrepancy Controller | 'true' is Active | 'false' is Inactive |
+true
+
+# Name of the First Seed Configuration File | Equilibrium for CO2 [Dry]
+config/config_Disc_smrEquilibrium.txt
+
+# Name of the Second Seed Configuration File | Equilibrium for H20 [Water]

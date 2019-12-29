@@ -1,0 +1,5 @@
+## Configuration File for 1st-gen Langmuir Isotherm Fitting Routine (Entries on the Same Line Delimited by Spaces):
+
+## Inputs
+# No of steady state data samples = no of reactor tanks| k2 value ""| Run Time(s) | Sampling frequency(s)| Display Frequency(s) | Temp (K)| Volume (m^3) | Break Step | Include CO(true/false)""
+100 1000
